@@ -1,0 +1,1789 @@
+{
+ "distributions": {
+  "absl-py": {
+   "files": 53,
+   "gzip_bytes": 315324,
+   "raw_bytes": 997762,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 1039872,
+   "version": "2.3.1"
+  },
+  "altair": {
+   "files": 102,
+   "gzip_bytes": 1462241,
+   "raw_bytes": 9232528,
+   "requires": [
+    "jinja2",
+    "jsonschema",
+    "narwhals",
+    "packaging",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 9312768,
+   "version": "5.5.0"
+  },
+  "annotated-doc": {
+   "files": 11,
+   "gzip_bytes": 5056,
+   "raw_bytes": 11934,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 20992,
+   "version": "0.0.4"
+  },
+  "annotated-types": {
+   "files": 10,
+   "gzip_bytes": 21490,
+   "raw_bytes": 69448,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 76800,
+   "version": "0.7.0"
+  },
+  "anthropic": {
+   "files": 1064,
+   "gzip_bytes": 618436,
+   "raw_bytes": 2906884,
+   "requires": [
+    "anyio",
+    "distro",
+    "docstring-parser",
+    "httpx",
+    "jiter",
+    "pydantic",
+    "sniffio",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 3720192,
+   "version": "0.84.0"
+  },
+  "anyio": {
+   "files": 88,
+   "gzip_bytes": 298837,
+   "raw_bytes": 971702,
+   "requires": [
+    "idna",
+    "sniffio"
+   ],
+   "sampled": false,
+   "tar_bytes": 1039360,
+   "version": "4.9.0"
+  },
+  "astunparse": {
+   "files": 15,
+   "gzip_bytes": 30002,
+   "raw_bytes": 100381,
+   "requires": [
+    "six",
+    "wheel"
+   ],
+   "sampled": false,
+   "tar_bytes": 112128,
+   "version": "1.6.3"
+  },
+  "attrs": {
+   "files": 55,
+   "gzip_bytes": 133976,
+   "raw_bytes": 412192,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 456704,
+   "version": "25.3.0"
+  },
+  "audioop-lts": {
+   "files": 11,
+   "gzip_bytes": 29948,
+   "raw_bytes": 70099,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 78336,
+   "version": "0.2.2"
+  },
+  "audioread": {
+   "files": 21,
+   "gzip_bytes": 41884,
+   "raw_bytes": 120643,
+   "requires": [
+    "standard-aifc",
+    "standard-sunau"
+   ],
+   "sampled": false,
+   "tar_bytes": 136704,
+   "version": "3.1.0"
+  },
+  "backoff": {
+   "files": 24,
+   "gzip_bytes": 24146,
+   "raw_bytes": 79239,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 98816,
+   "version": "2.2.1"
+  },
+  "bcrypt": {
+   "files": 11,
+   "gzip_bytes": 150281,
+   "raw_bytes": 329680,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 338432,
+   "version": "5.0.0"
+  },
+  "blinker": {
+   "files": 12,
+   "gzip_bytes": 15673,
+   "raw_bytes": 49284,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 58880,
+   "version": "1.9.0"
+  },
+  "boto3": {
+   "files": 103,
+   "gzip_bytes": 216589,
+   "raw_bytes": 1307188,
+   "requires": [
+    "botocore",
+    "jmespath",
+    "s3transfer"
+   ],
+   "sampled": false,
+   "tar_bytes": 1386496,
+   "version": "1.39.11"
+  },
+  "botocore": {
+   "files": 1974,
+   "gzip_bytes": 14498098,
+   "raw_bytes": 19704934,
+   "requires": [
+    "jmespath",
+    "python-dateutil",
+    "urllib3"
+   ],
+   "sampled": true,
+   "tar_bytes": 21331456,
+   "version": "1.39.11"
+  },
+  "build": {
+   "files": 34,
+   "gzip_bytes": 106804,
+   "raw_bytes": 255042,
+   "requires": [
+    "colorama",
+    "packaging",
+    "pyproject-hooks"
+   ],
+   "sampled": false,
+   "tar_bytes": 281600,
+   "version": "1.4.0"
+  },
+  "cachetools": {
+   "files": 14,
+   "gzip_bytes": 27065,
+   "raw_bytes": 91409,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 102400,
+   "version": "5.5.2"
+  },
+  "certifi": {
+   "files": 14,
+   "gzip_bytes": 134893,
+   "raw_bytes": 247393,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 258560,
+   "version": "2026.5.20"
+  },
+  "cffi": {
+   "files": 49,
+   "gzip_bytes": 347821,
+   "raw_bytes": 985615,
+   "requires": [
+    "pycparser"
+   ],
+   "sampled": false,
+   "tar_bytes": 1022464,
+   "version": "2.0.0"
+  },
+  "charset-normalizer": {
+   "files": 35,
+   "gzip_bytes": 219099,
+   "raw_bytes": 579389,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 606720,
+   "version": "3.4.2"
+  },
+  "chromadb": {
+   "files": 491,
+   "gzip_bytes": 21939544,
+   "raw_bytes": 65860990,
+   "requires": [
+    "bcrypt",
+    "build",
+    "grpcio",
+    "httpx",
+    "importlib-resources",
+    "jsonschema",
+    "kubernetes",
+    "mmh3",
+    "numpy",
+    "onnxruntime",
+    "opentelemetry-api",
+    "opentelemetry-exporter-otlp-proto-grpc",
+    "opentelemetry-sdk",
+    "orjson",
+    "overrides",
+    "posthog",
+    "pybase64",
+    "pydantic",
+    "pypika",
+    "pyyaml",
+    "rich",
+    "tenacity",
+    "tokenizers",
+    "tqdm",
+    "typer",
+    "typing-extensions",
+    "uvicorn"
+   ],
+   "sampled": true,
+   "tar_bytes": 66239488,
+   "version": "1.5.2"
+  },
+  "click": {
+   "files": 39,
+   "gzip_bytes": 269173,
+   "raw_bytes": 798799,
+   "requires": [
+    "colorama"
+   ],
+   "sampled": false,
+   "tar_bytes": 829952,
+   "version": "8.1.7"
+  },
+  "colorama": {
+   "files": 31,
+   "gzip_bytes": 52095,
+   "raw_bytes": 170179,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 194560,
+   "version": "0.4.6"
+  },
+  "decorator": {
+   "files": 9,
+   "gzip_bytes": 18371,
+   "raw_bytes": 44700,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 52736,
+   "version": "5.2.1"
+  },
+  "defusedxml": {
+   "files": 28,
+   "gzip_bytes": 35134,
+   "raw_bytes": 110183,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 132096,
+   "version": "0.7.1"
+  },
+  "distro": {
+   "files": 15,
+   "gzip_bytes": 90523,
+   "raw_bytes": 231542,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 243712,
+   "version": "1.9.0"
+  },
+  "docstring-parser": {
+   "files": 42,
+   "gzip_bytes": 85266,
+   "raw_bytes": 386512,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 419840,
+   "version": "0.17.0"
+  },
+  "durationpy": {
+   "files": 12,
+   "gzip_bytes": 5502,
+   "raw_bytes": 12310,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 22016,
+   "version": "0.10"
+  },
+  "fastapi": {
+   "files": 109,
+   "gzip_bytes": 322632,
+   "raw_bytes": 1376624,
+   "requires": [
+    "annotated-doc",
+    "pydantic",
+    "starlette",
+    "typing-extensions",
+    "typing-inspection"
+   ],
+   "sampled": false,
+   "tar_bytes": 1463808,
+   "version": "0.135.3"
+  },
+  "filelock": {
+   "files": 24,
+   "gzip_bytes": 31043,
+   "raw_bytes": 94201,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 114176,
+   "version": "3.20.3"
+  },
+  "flatbuffers": {
+   "files": 25,
+   "gzip_bytes": 67447,
+   "raw_bytes": 221843,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 241664,
+   "version": "25.12.19"
+  },
+  "fsspec": {
+   "files": 119,
+   "gzip_bytes": 549898,
+   "raw_bytes": 1659285,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 1748480,
+   "version": "2025.10.0"
+  },
+  "gast": {
+   "files": 20,
+   "gzip_bytes": 68444,
+   "raw_bytes": 263054,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 279552,
+   "version": "0.7.0"
+  },
+  "gitdb": {
+   "files": 57,
+   "gzip_bytes": 135701,
+   "raw_bytes": 388960,
+   "requires": [
+    "smmap"
+   ],
+   "sampled": false,
+   "tar_bytes": 433664,
+   "version": "4.0.12"
+  },
+  "gitpython": {
+   "files": 82,
+   "gzip_bytes": 492019,
+   "raw_bytes": 1386668,
+   "requires": [
+    "gitdb"
+   ],
+   "sampled": false,
+   "tar_bytes": 1449472,
+   "version": "3.1.45"
+  },
+  "google-pasta": {
+   "files": 54,
+   "gzip_bytes": 140420,
+   "raw_bytes": 488719,
+   "requires": [
+    "six"
+   ],
+   "sampled": false,
+   "tar_bytes": 530432,
+   "version": "0.2.0"
+  },
+  "googleapis-common-protos": {
+   "files": 264,
+   "gzip_bytes": 175673,
+   "raw_bytes": 906235,
+   "requires": [
+    "protobuf"
+   ],
+   "sampled": false,
+   "tar_bytes": 1114112,
+   "version": "1.70.0"
+  },
+  "greenlet": {
+   "files": 121,
+   "gzip_bytes": 322568,
+   "raw_bytes": 965488,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 1058816,
+   "version": "3.2.3"
+  },
+  "grpcio": {
+   "files": 120,
+   "gzip_bytes": 4823513,
+   "raw_bytes": 11859645,
+   "requires": [
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 11953664,
+   "version": "1.75.1"
+  },
+  "h11": {
+   "files": 29,
+   "gzip_bytes": 66427,
+   "raw_bytes": 186128,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 209920,
+   "version": "0.16.0"
+  },
+  "h5py": {
+   "files": 161,
+   "gzip_bytes": 3138829,
+   "raw_bytes": 8264204,
+   "requires": [
+    "numpy"
+   ],
+   "sampled": false,
+   "tar_bytes": 8381440,
+   "version": "3.15.1"
+  },
+  "httpcore": {
+   "files": 68,
+   "gzip_bytes": 184775,
+   "raw_bytes": 631306,
+   "requires": [
+    "certifi",
+    "h11"
+   ],
+   "sampled": false,
+   "tar_bytes": 684032,
+   "version": "1.0.9"
+  },
+  "httpx": {
+   "files": 54,
+   "gzip_bytes": 247987,
+   "raw_bytes": 745162,
+   "requires": [
+    "anyio",
+    "certifi",
+    "httpcore",
+    "idna"
+   ],
+   "sampled": false,
+   "tar_bytes": 786432,
+   "version": "0.28.1"
+  },
+  "huggingface-hub": {
+   "files": 335,
+   "gzip_bytes": 1408855,
+   "raw_bytes": 4851293,
+   "requires": [
+    "filelock",
+    "fsspec",
+    "packaging",
+    "pyyaml",
+    "requests",
+    "tqdm",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 5108224,
+   "version": "0.36.0"
+  },
+  "idna": {
+   "files": 22,
+   "gzip_bytes": 154214,
+   "raw_bytes": 635735,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 652800,
+   "version": "3.10"
+  },
+  "importlib-resources": {
+   "files": 67,
+   "gzip_bytes": 86211,
+   "raw_bytes": 277360,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 328704,
+   "version": "6.5.2"
+  },
+  "jinja2": {
+   "files": 58,
+   "gzip_bytes": 389998,
+   "raw_bytes": 1164971,
+   "requires": [
+    "markupsafe"
+   ],
+   "sampled": false,
+   "tar_bytes": 1209344,
+   "version": "3.1.4"
+  },
+  "jiter": {
+   "files": 9,
+   "gzip_bytes": 204150,
+   "raw_bytes": 481553,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 488448,
+   "version": "0.10.0"
+  },
+  "jmespath": {
+   "files": 24,
+   "gzip_bytes": 48958,
+   "raw_bytes": 151577,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 171008,
+   "version": "1.1.0"
+  },
+  "joblib": {
+   "files": 217,
+   "gzip_bytes": 664149,
+   "raw_bytes": 1967942,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 2137600,
+   "version": "1.5.3"
+  },
+  "jsonschema": {
+   "files": 76,
+   "gzip_bytes": 287093,
+   "raw_bytes": 1051898,
+   "requires": [
+    "attrs",
+    "jsonschema-specifications",
+    "referencing",
+    "rpds-py"
+   ],
+   "sampled": false,
+   "tar_bytes": 1111040,
+   "version": "4.25.0"
+  },
+  "jsonschema-specifications": {
+   "files": 33,
+   "gzip_bytes": 9809,
+   "raw_bytes": 51888,
+   "requires": [
+    "referencing"
+   ],
+   "sampled": false,
+   "tar_bytes": 77312,
+   "version": "2025.4.1"
+  },
+  "keras": {
+   "files": 1237,
+   "gzip_bytes": 3476575,
+   "raw_bytes": 13111754,
+   "requires": [
+    "absl-py",
+    "h5py",
+    "ml-dtypes",
+    "namex",
+    "numpy",
+    "optree",
+    "packaging",
+    "rich"
+   ],
+   "sampled": false,
+   "tar_bytes": 14062080,
+   "version": "3.13.1"
+  },
+  "kubernetes": {
+   "files": 1668,
+   "gzip_bytes": 1957454,
+   "raw_bytes": 33002443,
+   "requires": [
+    "certifi",
+    "durationpy",
+    "python-dateutil",
+    "pyyaml",
+    "requests",
+    "requests-oauthlib",
+    "six",
+    "urllib3",
+    "websocket-client"
+   ],
+   "sampled": true,
+   "tar_bytes": 34291712,
+   "version": "35.0.0"
+  },
+  "lazy-loader": {
+   "files": 19,
+   "gzip_bytes": 18945,
+   "raw_bytes": 53114,
+   "requires": [
+    "packaging"
+   ],
+   "sampled": false,
+   "tar_bytes": 68608,
+   "version": "0.4"
+  },
+  "libclang": {
+   "files": 15,
+   "gzip_bytes": 26475213,
+   "raw_bytes": 84320623,
+   "requires": [],
+   "sampled": true,
+   "tar_bytes": 84333056,
+   "version": "18.1.1"
+  },
+  "librosa": {
+   "files": 87,
+   "gzip_bytes": 585978,
+   "raw_bytes": 1993891,
+   "requires": [
+    "audioread",
+    "decorator",
+    "joblib",
+    "lazy-loader",
+    "msgpack",
+    "numba",
+    "numpy",
+    "pooch",
+    "scikit-learn",
+    "scipy",
+    "soundfile",
+    "soxr",
+    "standard-aifc",
+    "standard-sunau",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 2061824,
+   "version": "0.11.0"
+  },
+  "llvmlite": {
+   "files": 86,
+   "gzip_bytes": 38527390,
+   "raw_bytes": 108633521,
+   "requires": [],
+   "sampled": true,
+   "tar_bytes": 108698624,
+   "version": "0.46.0"
+  },
+  "markdown": {
+   "files": 74,
+   "gzip_bytes": 287332,
+   "raw_bytes": 813359,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 870400,
+   "version": "3.10.1"
+  },
+  "markdown-it-py": {
+   "files": 142,
+   "gzip_bytes": 211120,
+   "raw_bytes": 585721,
+   "requires": [
+    "mdurl"
+   ],
+   "sampled": false,
+   "tar_bytes": 697344,
+   "version": "4.0.0"
+  },
+  "markupsafe": {
+   "files": 14,
+   "gzip_bytes": 21049,
+   "raw_bytes": 60170,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 71168,
+   "version": "3.0.2"
+  },
+  "mdurl": {
+   "files": 18,
+   "gzip_bytes": 16227,
+   "raw_bytes": 40671,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 55808,
+   "version": "0.1.2"
+  },
+  "ml-dtypes": {
+   "files": 15,
+   "gzip_bytes": 217483,
+   "raw_bytes": 922272,
+   "requires": [
+    "numpy",
+    "numpy",
+    "numpy",
+    "numpy",
+    "numpy"
+   ],
+   "sampled": false,
+   "tar_bytes": 933888,
+   "version": "0.5.4"
+  },
+  "mmh3": {
+   "files": 13,
+   "gzip_bytes": 38545,
+   "raw_bytes": 172585,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 182784,
+   "version": "5.2.1"
+  },
+  "mpmath": {
+   "files": 180,
+   "gzip_bytes": 1420008,
+   "raw_bytes": 4576270,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 4714496,
+   "version": "1.3.0"
+  },
+  "msgpack": {
+   "files": 15,
+   "gzip_bytes": 91380,
+   "raw_bytes": 238268,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 251392,
+   "version": "1.1.2"
+  },
+  "namex": {
+   "files": 14,
+   "gzip_bytes": 10444,
+   "raw_bytes": 26942,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 38400,
+   "version": "0.1.0"
+  },
+  "narwhals": {
+   "files": 308,
+   "gzip_bytes": 1047095,
+   "raw_bytes": 3897580,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 4134400,
+   "version": "2.0.1"
+  },
+  "networkx": {
+   "files": 1171,
+   "gzip_bytes": 4307736,
+   "raw_bytes": 15140621,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 16025088,
+   "version": "3.5"
+  },
+  "nltk": {
+   "files": 959,
+   "gzip_bytes": 4108375,
+   "raw_bytes": 13211709,
+   "requires": [
+    "click",
+    "defusedxml",
+    "joblib",
+    "regex",
+    "tqdm"
+   ],
+   "sampled": false,
+   "tar_bytes": 13948416,
+   "version": "3.10.3"
+  },
+  "numba": {
+   "files": 1521,
+   "gzip_bytes": 7888518,
+   "raw_bytes": 26914320,
+   "requires": [
+    "llvmlite",
+    "numpy"
+   ],
+   "sampled": true,
+   "tar_bytes": 28080640,
+   "version": "0.63.1"
+  },
+  "numpy": {
+   "files": 1355,
+   "gzip_bytes": 17658776,
+   "raw_bytes": 53980031,
+   "requires": [],
+   "sampled": true,
+   "tar_bytes": 55021568,
+   "version": "2.5.4"
+  },
+  "oauthlib": {
+   "files": 156,
+   "gzip_bytes": 282970,
+   "raw_bytes": 1060954,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 1179136,
+   "version": "3.3.1"
+  },
+  "onnxruntime": {
+   "files": 627,
+   "gzip_bytes": 14408076,
+   "raw_bytes": 40856932,
+   "requires": [
+    "flatbuffers",
+    "numpy",
+    "packaging",
+    "protobuf",
+    "sympy"
+   ],
+   "sampled": true,
+   "tar_bytes": 41330688,
+   "version": "1.24.3"
+  },
+  "openai": {
+   "files": 664,
+   "gzip_bytes": 683375,
+   "raw_bytes": 3087746,
+   "requires": [
+    "anyio",
+    "distro",
+    "httpx",
+    "jiter",
+    "pydantic",
+    "sniffio",
+    "tqdm",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 3596800,
+   "version": "1.51.0"
+  },
+  "opencv-python": {
+   "files": 103,
+   "gzip_bytes": 40574148,
+   "raw_bytes": 114122968,
+   "requires": [
+    "numpy"
+   ],
+   "sampled": true,
+   "tar_bytes": 114204672,
+   "version": "4.13.0.92"
+  },
+  "opentelemetry-api": {
+   "files": 81,
+   "gzip_bytes": 116425,
+   "raw_bytes": 425662,
+   "requires": [
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 481792,
+   "version": "1.42.1"
+  },
+  "opentelemetry-exporter-otlp-proto-common": {
+   "files": 26,
+   "gzip_bytes": 28382,
+   "raw_bytes": 91356,
+   "requires": [
+    "opentelemetry-proto"
+   ],
+   "sampled": false,
+   "tar_bytes": 111104,
+   "version": "1.42.1"
+  },
+  "opentelemetry-exporter-otlp-proto-grpc": {
+   "files": 19,
+   "gzip_bytes": 30363,
+   "raw_bytes": 98829,
+   "requires": [
+    "googleapis-common-protos",
+    "grpcio",
+    "opentelemetry-api",
+    "opentelemetry-exporter-otlp-proto-common",
+    "opentelemetry-proto",
+    "opentelemetry-sdk",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 114176,
+   "version": "1.40.0"
+  },
+  "opentelemetry-proto": {
+   "files": 74,
+   "gzip_bytes": 61001,
+   "raw_bytes": 316756,
+   "requires": [
+    "protobuf"
+   ],
+   "sampled": false,
+   "tar_bytes": 370688,
+   "version": "1.42.1"
+  },
+  "opentelemetry-sdk": {
+   "files": 158,
+   "gzip_bytes": 354935,
+   "raw_bytes": 1306942,
+   "requires": [
+    "opentelemetry-api",
+    "opentelemetry-semantic-conventions",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 1430528,
+   "version": "1.42.1"
+  },
+  "opentelemetry-semantic-conventions": {
+   "files": 256,
+   "gzip_bytes": 256917,
+   "raw_bytes": 1166780,
+   "requires": [
+    "opentelemetry-api",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 1363456,
+   "version": "0.63b1"
+  },
+  "opt-einsum": {
+   "files": 61,
+   "gzip_bytes": 185879,
+   "raw_bytes": 563677,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 611328,
+   "version": "3.4.0"
+  },
+  "optree": {
+   "files": 39,
+   "gzip_bytes": 389359,
+   "raw_bytes": 1261313,
+   "requires": [
+    "typing-extensions",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 1292800,
+   "version": "0.18.0"
+  },
+  "orjson": {
+   "files": 22,
+   "gzip_bytes": 240202,
+   "raw_bytes": 608805,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 626176,
+   "version": "3.11.7"
+  },
+  "overrides": {
+   "files": 19,
+   "gzip_bytes": 35125,
+   "raw_bytes": 105363,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 120320,
+   "version": "7.7.0"
+  },
+  "packaging": {
+   "files": 40,
+   "gzip_bytes": 152771,
+   "raw_bytes": 471263,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 501248,
+   "version": "25.0"
+  },
+  "pandas": {
+   "files": 2976,
+   "gzip_bytes": 23169059,
+   "raw_bytes": 65848530,
+   "requires": [
+    "numpy",
+    "python-dateutil",
+    "pytz",
+    "tzdata"
+   ],
+   "sampled": true,
+   "tar_bytes": 68102144,
+   "version": "2.3.1"
+  },
+  "pillow": {
+   "files": 216,
+   "gzip_bytes": 7489779,
+   "raw_bytes": 15703000,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 15869440,
+   "version": "11.3.0"
+  },
+  "platformdirs": {
+   "files": 22,
+   "gzip_bytes": 35336,
+   "raw_bytes": 169317,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 186880,
+   "version": "4.5.1"
+  },
+  "plotly": {
+   "files": 3271,
+   "gzip_bytes": 13370501,
+   "raw_bytes": 61877863,
+   "requires": [
+    "narwhals",
+    "packaging"
+   ],
+   "sampled": true,
+   "tar_bytes": 64348672,
+   "version": "6.2.0"
+  },
+  "polars": {
+   "files": 414,
+   "gzip_bytes": 1909190,
+   "raw_bytes": 8074538,
+   "requires": [
+    "polars-runtime-32"
+   ],
+   "sampled": false,
+   "tar_bytes": 8390656,
+   "version": "1.40.1"
+  },
+  "polars-runtime-32": {
+   "files": 10,
+   "gzip_bytes": 51917310,
+   "raw_bytes": 182330880,
+   "requires": [],
+   "sampled": true,
+   "tar_bytes": 182338560,
+   "version": "1.40.1"
+  },
+  "pooch": {
+   "files": 55,
+   "gzip_bytes": 133143,
+   "raw_bytes": 532727,
+   "requires": [
+    "packaging",
+    "platformdirs",
+    "requests"
+   ],
+   "sampled": false,
+   "tar_bytes": 577536,
+   "version": "1.8.2"
+  },
+  "posthog": {
+   "files": 140,
+   "gzip_bytes": 571989,
+   "raw_bytes": 2440680,
+   "requires": [
+    "backoff",
+    "distro",
+    "python-dateutil",
+    "requests",
+    "six",
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 2547712,
+   "version": "7.11.1"
+  },
+  "protobuf": {
+   "files": 114,
+   "gzip_bytes": 678394,
+   "raw_bytes": 2621065,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 2709504,
+   "version": "6.33.6"
+  },
+  "pyarrow": {
+   "files": 856,
+   "gzip_bytes": 31215935,
+   "raw_bytes": 85029344,
+   "requires": [],
+   "sampled": true,
+   "tar_bytes": 85675520,
+   "version": "21.0.0"
+  },
+  "pybase64": {
+   "files": 24,
+   "gzip_bytes": 95264,
+   "raw_bytes": 224268,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 244224,
+   "version": "1.4.3"
+  },
+  "pycparser": {
+   "files": 41,
+   "gzip_bytes": 288093,
+   "raw_bytes": 1212248,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 1245184,
+   "version": "2.23"
+  },
+  "pydantic": {
+   "files": 215,
+   "gzip_bytes": 1140006,
+   "raw_bytes": 3611680,
+   "requires": [
+    "annotated-types",
+    "pydantic-core",
+    "typing-extensions",
+    "typing-inspection"
+   ],
+   "sampled": false,
+   "tar_bytes": 3777536,
+   "version": "2.11.7"
+  },
+  "pydantic-core": {
+   "files": 12,
+   "gzip_bytes": 1991670,
+   "raw_bytes": 5670790,
+   "requires": [
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 5679616,
+   "version": "2.33.2"
+  },
+  "pydeck": {
+   "files": 85,
+   "gzip_bytes": 7104354,
+   "raw_bytes": 28942519,
+   "requires": [
+    "jinja2",
+    "numpy"
+   ],
+   "sampled": true,
+   "tar_bytes": 29010944,
+   "version": "0.9.1"
+  },
+  "pygments": {
+   "files": 684,
+   "gzip_bytes": 2684136,
+   "raw_bytes": 8460176,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 8986112,
+   "version": "2.19.2"
+  },
+  "pyjwt": {
+   "files": 32,
+   "gzip_bytes": 67137,
+   "raw_bytes": 214232,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 240128,
+   "version": "2.11.0"
+  },
+  "pypika": {
+   "files": 39,
+   "gzip_bytes": 171125,
+   "raw_bytes": 617029,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 648704,
+   "version": "0.51.1"
+  },
+  "pyproject-hooks": {
+   "files": 14,
+   "gzip_bytes": 21199,
+   "raw_bytes": 66990,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 78848,
+   "version": "1.2.0"
+  },
+  "python-dateutil": {
+   "files": 45,
+   "gzip_bytes": 350963,
+   "raw_bytes": 743684,
+   "requires": [
+    "six"
+   ],
+   "sampled": false,
+   "tar_bytes": 779264,
+   "version": "2.9.0.post0"
+  },
+  "pytz": {
+   "files": 623,
+   "gzip_bytes": 296480,
+   "raw_bytes": 1080019,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 1573888,
+   "version": "2025.2"
+  },
+  "pyyaml": {
+   "files": 43,
+   "gzip_bytes": 234285,
+   "raw_bytes": 738089,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 771072,
+   "version": "6.0.3"
+  },
+  "redis": {
+   "files": 160,
+   "gzip_bytes": 768487,
+   "raw_bytes": 2542408,
+   "requires": [
+    "pyjwt"
+   ],
+   "sampled": false,
+   "tar_bytes": 2667520,
+   "version": "5.3.1"
+  },
+  "referencing": {
+   "files": 33,
+   "gzip_bytes": 72477,
+   "raw_bytes": 265398,
+   "requires": [
+    "attrs",
+    "rpds-py"
+   ],
+   "sampled": false,
+   "tar_bytes": 289792,
+   "version": "0.36.2"
+  },
+  "regex": {
+   "files": 15,
+   "gzip_bytes": 442653,
+   "raw_bytes": 1774369,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 1786368,
+   "version": "2026.7.19"
+  },
+  "requests": {
+   "files": 43,
+   "gzip_bytes": 146151,
+   "raw_bytes": 415003,
+   "requires": [
+    "certifi",
+    "charset-normalizer",
+    "idna",
+    "urllib3"
+   ],
+   "sampled": false,
+   "tar_bytes": 446976,
+   "version": "2.32.5"
+  },
+  "requests-oauthlib": {
+   "files": 36,
+   "gzip_bytes": 39932,
+   "raw_bytes": 131785,
+   "requires": [
+    "oauthlib",
+    "requests"
+   ],
+   "sampled": false,
+   "tar_bytes": 158720,
+   "version": "2.0.0"
+  },
+  "rich": {
+   "files": 162,
+   "gzip_bytes": 690913,
+   "raw_bytes": 2132692,
+   "requires": [
+    "markdown-it-py",
+    "pygments"
+   ],
+   "sampled": false,
+   "tar_bytes": 2254848,
+   "version": "14.2.0"
+  },
+  "rpds-py": {
+   "files": 10,
+   "gzip_bytes": 234956,
+   "raw_bytes": 661554,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 669696,
+   "version": "0.26.0"
+  },
+  "s3transfer": {
+   "files": 39,
+   "gzip_bytes": 193202,
+   "raw_bytes": 644623,
+   "requires": [
+    "botocore"
+   ],
+   "sampled": false,
+   "tar_bytes": 676352,
+   "version": "0.13.1"
+  },
+  "safetensors": {
+   "files": 22,
+   "gzip_bytes": 342964,
+   "raw_bytes": 863928,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 881152,
+   "version": "0.7.0"
+  },
+  "scikit-learn": {
+   "files": 1657,
+   "gzip_bytes": 13152506,
+   "raw_bytes": 40820955,
+   "requires": [
+    "joblib",
+    "numpy",
+    "scipy",
+    "threadpoolctl"
+   ],
+   "sampled": true,
+   "tar_bytes": 42063872,
+   "version": "1.8.0"
+  },
+  "scipy": {
+   "files": 2507,
+   "gzip_bytes": 45112001,
+   "raw_bytes": 135836485,
+   "requires": [
+    "numpy"
+   ],
+   "sampled": true,
+   "tar_bytes": 137765376,
+   "version": "1.17.1"
+  },
+  "setuptools": {
+   "files": 818,
+   "gzip_bytes": 2504979,
+   "raw_bytes": 7765465,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 8396800,
+   "version": "80.10.1"
+  },
+  "shellingham": {
+   "files": 21,
+   "gzip_bytes": 16035,
+   "raw_bytes": 38416,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 55808,
+   "version": "1.5.4"
+  },
+  "six": {
+   "files": 8,
+   "gzip_bytes": 27891,
+   "raw_bytes": 80205,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 87552,
+   "version": "1.17.0"
+  },
+  "smmap": {
+   "files": 27,
+   "gzip_bytes": 49321,
+   "raw_bytes": 143242,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 163840,
+   "version": "5.0.2"
+  },
+  "sniffio": {
+   "files": 19,
+   "gzip_bytes": 11021,
+   "raw_bytes": 31228,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 46592,
+   "version": "1.3.1"
+  },
+  "soundfile": {
+   "files": 15,
+   "gzip_bytes": 1049142,
+   "raw_bytes": 2557396,
+   "requires": [
+    "cffi",
+    "numpy"
+   ],
+   "sampled": false,
+   "tar_bytes": 2569216,
+   "version": "0.13.1"
+  },
+  "soxr": {
+   "files": 14,
+   "gzip_bytes": 174294,
+   "raw_bytes": 411204,
+   "requires": [
+    "numpy"
+   ],
+   "sampled": false,
+   "tar_bytes": 422912,
+   "version": "1.0.0"
+  },
+  "sqlalchemy": {
+   "files": 532,
+   "gzip_bytes": 5297005,
+   "raw_bytes": 17729211,
+   "requires": [
+    "greenlet",
+    "typing-extensions"
+   ],
+   "sampled": true,
+   "tar_bytes": 18130432,
+   "version": "2.0.43"
+  },
+  "standard-aifc": {
+   "files": 8,
+   "gzip_bytes": 25243,
+   "raw_bytes": 82807,
+   "requires": [
+    "audioop-lts",
+    "standard-chunk"
+   ],
+   "sampled": false,
+   "tar_bytes": 90112,
+   "version": "3.13.0"
+  },
+  "standard-chunk": {
+   "files": 8,
+   "gzip_bytes": 6830,
+   "raw_bytes": 17682,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 25088,
+   "version": "3.13.0"
+  },
+  "standard-sunau": {
+   "files": 8,
+   "gzip_bytes": 14375,
+   "raw_bytes": 49157,
+   "requires": [
+    "audioop-lts"
+   ],
+   "sampled": false,
+   "tar_bytes": 56320,
+   "version": "3.13.0"
+  },
+  "starlette": {
+   "files": 74,
+   "gzip_bytes": 202606,
+   "raw_bytes": 610751,
+   "requires": [
+    "anyio"
+   ],
+   "sampled": false,
+   "tar_bytes": 667648,
+   "version": "0.46.2"
+  },
+  "streamlit": {
+   "files": 875,
+   "gzip_bytes": 7831422,
+   "raw_bytes": 29124378,
+   "requires": [
+    "altair",
+    "blinker",
+    "cachetools",
+    "click",
+    "gitpython",
+    "numpy",
+    "packaging",
+    "pandas",
+    "pillow",
+    "protobuf",
+    "pyarrow",
+    "pydeck",
+    "requests",
+    "tenacity",
+    "toml",
+    "tornado",
+    "typing-extensions",
+    "watchdog"
+   ],
+   "sampled": true,
+   "tar_bytes": 29792256,
+   "version": "1.47.1"
+  },
+  "sympy": {
+   "files": 3105,
+   "gzip_bytes": 19539631,
+   "raw_bytes": 69059984,
+   "requires": [
+    "mpmath"
+   ],
+   "sampled": true,
+   "tar_bytes": 71438848,
+   "version": "1.14.0"
+  },
+  "tenacity": {
+   "files": 29,
+   "gzip_bytes": 45313,
+   "raw_bytes": 146862,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 170496,
+   "version": "8.2.3"
+  },
+  "tensorboard": {
+   "files": 534,
+   "gzip_bytes": 6236776,
+   "raw_bytes": 11051814,
+   "requires": [
+    "absl-py",
+    "grpcio",
+    "markdown",
+    "numpy",
+    "packaging",
+    "pillow",
+    "protobuf",
+    "setuptools",
+    "tensorboard-data-server",
+    "werkzeug"
+   ],
+   "sampled": false,
+   "tar_bytes": 11456512,
+   "version": "2.20.0"
+  },
+  "tensorboard-data-server": {
+   "files": 7,
+   "gzip_bytes": 1998,
+   "raw_bytes": 4061,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 10240,
+   "version": "0.7.2"
+  },
+  "tensorflow": {
+   "files": 13939,
+   "gzip_bytes": 399579839,
+   "raw_bytes": 1368464681,
+   "requires": [
+    "absl-py",
+    "astunparse",
+    "flatbuffers",
+    "gast",
+    "google-pasta",
+    "grpcio",
+    "h5py",
+    "keras",
+    "libclang",
+    "ml-dtypes",
+    "numpy",
+    "opt-einsum",
+    "packaging",
+    "protobuf",
+    "requests",
+    "setuptools",
+    "six",
+    "tensorboard",
+    "termcolor",
+    "typing-extensions",
+    "wrapt"
+   ],
+   "sampled": true,
+   "tar_bytes": 1379074560,
+   "version": "2.20.0"
+  },
+  "termcolor": {
+   "files": 12,
+   "gzip_bytes": 10434,
+   "raw_bytes": 29544,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 38400,
+   "version": "3.3.0"
+  },
+  "threadpoolctl": {
+   "files": 7,
+   "gzip_bytes": 39623,
+   "raw_bytes": 124801,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 131072,
+   "version": "3.6.0"
+  },
+  "tokenizers": {
+   "files": 46,
+   "gzip_bytes": 2643350,
+   "raw_bytes": 7724580,
+   "requires": [
+    "huggingface-hub"
+   ],
+   "sampled": false,
+   "tar_bytes": 7759872,
+   "version": "0.22.2"
+  },
+  "toml": {
+   "files": 16,
+   "gzip_bytes": 44257,
+   "raw_bytes": 121524,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 135168,
+   "version": "0.10.2"
+  },
+  "torch": {
+   "files": 14014,
+   "gzip_bytes": 134389084,
+   "raw_bytes": 475012080,
+   "requires": [
+    "filelock",
+    "fsspec",
+    "jinja2",
+    "networkx",
+    "setuptools",
+    "sympy",
+    "typing-extensions"
+   ],
+   "sampled": true,
+   "tar_bytes": 485774848,
+   "version": "2.11.0"
+  },
+  "tornado": {
+   "files": 171,
+   "gzip_bytes": 1186569,
+   "raw_bytes": 3846590,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 3979776,
+   "version": "6.5.1"
+  },
+  "tqdm": {
+   "files": 72,
+   "gzip_bytes": 211954,
+   "raw_bytes": 557291,
+   "requires": [
+    "colorama"
+   ],
+   "sampled": false,
+   "tar_bytes": 610816,
+   "version": "4.70.0"
+  },
+  "transformers": {
+   "files": 4464,
+   "gzip_bytes": 31244708,
+   "raw_bytes": 107433880,
+   "requires": [
+    "filelock",
+    "huggingface-hub",
+    "numpy",
+    "packaging",
+    "pyyaml",
+    "regex",
+    "requests",
+    "safetensors",
+    "tokenizers",
+    "tqdm"
+   ],
+   "sampled": true,
+   "tar_bytes": 110886400,
+   "version": "4.57.6"
+  },
+  "typer": {
+   "files": 40,
+   "gzip_bytes": 194838,
+   "raw_bytes": 632481,
+   "requires": [
+    "annotated-doc",
+    "click",
+    "rich",
+    "shellingham"
+   ],
+   "sampled": false,
+   "tar_bytes": 663040,
+   "version": "0.24.1"
+  },
+  "typing-extensions": {
+   "files": 7,
+   "gzip_bytes": 111049,
+   "raw_bytes": 341150,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 347648,
+   "version": "4.15.0"
+  },
+  "typing-inspection": {
+   "files": 13,
+   "gzip_bytes": 24977,
+   "raw_bytes": 89182,
+   "requires": [
+    "typing-extensions"
+   ],
+   "sampled": false,
+   "tar_bytes": 99840,
+   "version": "0.4.2"
+  },
+  "tzdata": {
+   "files": 656,
+   "gzip_bytes": 163597,
+   "raw_bytes": 589352,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 1106432,
+   "version": "2025.2"
+  },
+  "urllib3": {
+   "files": 79,
+   "gzip_bytes": 307312,
+   "raw_bytes": 884672,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 945152,
+   "version": "2.5.0"
+  },
+  "uvicorn": {
+   "files": 84,
+   "gzip_bytes": 200567,
+   "raw_bytes": 575740,
+   "requires": [
+    "click",
+    "h11"
+   ],
+   "sampled": false,
+   "tar_bytes": 640512,
+   "version": "0.34.3"
+  },
+  "watchdog": {
+   "files": 61,
+   "gzip_bytes": 218220,
+   "raw_bytes": 646960,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 691712,
+   "version": "6.0.0"
+  },
+  "websocket-client": {
+   "files": 75,
+   "gzip_bytes": 229327,
+   "raw_bytes": 747094,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 805888,
+   "version": "1.9.0"
+  },
+  "werkzeug": {
+   "files": 116,
+   "gzip_bytes": 560317,
+   "raw_bytes": 1659644,
+   "requires": [
+    "markupsafe"
+   ],
+   "sampled": false,
+   "tar_bytes": 1748992,
+   "version": "3.1.3"
+  },
+  "wheel": {
+   "files": 35,
+   "gzip_bytes": 125043,
+   "raw_bytes": 301648,
+   "requires": [
+    "packaging"
+   ],
+   "sampled": false,
+   "tar_bytes": 329728,
+   "version": "0.46.3"
+  },
+  "wrapt": {
+   "files": 23,
+   "gzip_bytes": 59528,
+   "raw_bytes": 191832,
+   "requires": [],
+   "sampled": false,
+   "tar_bytes": 210432,
+   "version": "1.17.3"
+  }
+ },
+ "gzip_level": 6,
+ "tar_block": 512
+}

@@ -1,0 +1,6 @@
+# base-5
+# shared by: embedding-service, vector-search, onnx-inference, vision-preproc, audio-feature, tabular-train, tf-batch-scorer, analytics-dash, etl-arrow, nlp-classic
+# layer content: 1 packages, 17.7 MB compressed
+FROM python:3.13-slim
+RUN pip install --no-cache-dir \
+        numpy

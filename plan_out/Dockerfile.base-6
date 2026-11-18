@@ -1,0 +1,8 @@
+# base-6
+# shared by: vector-search, onnx-inference
+# layer content: 3 packages, 15.2 MB compressed
+FROM base-3
+RUN pip install --no-cache-dir \
+        flatbuffers \
+        onnxruntime \
+        protobuf

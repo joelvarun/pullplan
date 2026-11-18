@@ -1,0 +1,7 @@
+# base-8
+# shared by: embedding-service, vector-search, onnx-inference, vision-preproc, tf-batch-scorer
+# layer content: 2 packages, 0.3 MB compressed
+FROM base-5
+RUN pip install --no-cache-dir \
+        idna \
+        typing-extensions

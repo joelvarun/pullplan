@@ -1,0 +1,37 @@
+# analytics-dash
+# shared by: analytics-dash
+# layer content: 32 packages, 43.9 MB compressed
+FROM base-2
+RUN pip install --no-cache-dir \
+        altair \
+        attrs \
+        blinker \
+        cachetools \
+        certifi \
+        charset-normalizer \
+        click \
+        colorama \
+        gitdb \
+        gitpython \
+        idna \
+        jinja2 \
+        jsonschema \
+        jsonschema-specifications \
+        markupsafe \
+        narwhals \
+        packaging \
+        pillow \
+        plotly \
+        protobuf \
+        pydeck \
+        referencing \
+        requests \
+        rpds-py \
+        smmap \
+        streamlit \
+        tenacity \
+        toml \
+        tornado \
+        typing-extensions \
+        urllib3 \
+        watchdog

@@ -1,0 +1,22 @@
+python:3.13-slim [12 images] carries 0.0 MB in 0 packages
+  base-9 [2 images] carries 0.1 MB in 1 package
+    llm-api-gateway [image] carries 7.2 MB
+    db-worker [image] carries 22.1 MB
+  base-5 [10 images] carries 17.7 MB in 1 package
+    base-8 [5 images] carries 0.3 MB in 2 packages
+      base-3 [3 images] carries 25.1 MB in 12 packages
+        embedding-service [image] carries 180.1 MB
+        base-6 [2 images] carries 15.2 MB in 3 packages
+          vector-search [image] carries 43.8 MB
+          onnx-inference [image] carries 0.0 MB
+      base-7 [2 images] carries 7.5 MB in 1 package
+        vision-preproc [image] carries 44.6 MB
+        tf-batch-scorer [image] carries 454.0 MB
+    base-1 [3 images] carries 59.0 MB in 4 packages
+      audio-feature [image] carries 50.5 MB
+      base-4 [2 images] carries 24.0 MB in 5 packages
+        tabular-train [image] carries 0.0 MB
+        nlp-classic [image] carries 5.1 MB
+    base-2 [2 images] carries 55.2 MB in 6 packages
+      analytics-dash [image] carries 43.9 MB
+      etl-arrow [image] carries 53.8 MB

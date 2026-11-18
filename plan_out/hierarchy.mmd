@@ -1,0 +1,44 @@
+graph TD
+  n4095["python:3.13-slim<br/>0.0 MB"]
+  n4095 --> n2049
+  n4095 --> n2046
+  n2049["base-9<br/>0.1 MB"]
+  n2049 --> n1
+  n2049 --> n2048
+  n1["llm-api-gateway<br/>7.2 MB"]
+  n2048["db-worker<br/>22.1 MB"]
+  n2046["base-5<br/>17.7 MB"]
+  n2046 --> n158
+  n2046 --> n1120
+  n2046 --> n768
+  n158["base-8<br/>0.3 MB"]
+  n158 --> n14
+  n158 --> n144
+  n14["base-3<br/>25.1 MB"]
+  n14 --> n2
+  n14 --> n12
+  n2["embedding-service<br/>180.1 MB"]
+  n12["base-6<br/>15.2 MB"]
+  n12 --> n4
+  n12 --> n8
+  n4["vector-search<br/>43.8 MB"]
+  n8["onnx-inference<br/>0.0 MB"]
+  n144["base-7<br/>7.5 MB"]
+  n144 --> n16
+  n144 --> n128
+  n16["vision-preproc<br/>44.6 MB"]
+  n128["tf-batch-scorer<br/>454.0 MB"]
+  n1120["base-1<br/>59.0 MB"]
+  n1120 --> n32
+  n1120 --> n1088
+  n32["audio-feature<br/>50.5 MB"]
+  n1088["base-4<br/>24.0 MB"]
+  n1088 --> n64
+  n1088 --> n1024
+  n64["tabular-train<br/>0.0 MB"]
+  n1024["nlp-classic<br/>5.1 MB"]
+  n768["base-2<br/>55.2 MB"]
+  n768 --> n256
+  n768 --> n512
+  n256["analytics-dash<br/>43.9 MB"]
+  n512["etl-arrow<br/>53.8 MB"]

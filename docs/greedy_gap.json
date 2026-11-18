@@ -1,0 +1,11 @@
+{
+ "trials": 200,
+ "images_per_family": 9,
+ "seed": 7,
+ "greedy_suboptimal_count": 15,
+ "greedy_gap_percent_mean": 0.241,
+ "greedy_gap_percent_max": 0.611,
+ "optimal_saving_percent_mean": 22.0,
+ "optimal_saving_percent_min": 0.67,
+ "optimal_saving_percent_max": 62.91
+}

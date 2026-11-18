@@ -1,0 +1,6 @@
+# base-9
+# shared by: llm-api-gateway, db-worker
+# layer content: 1 packages, 0.1 MB compressed
+FROM python:3.13-slim
+RUN pip install --no-cache-dir \
+        typing-extensions

@@ -1,0 +1,28 @@
+# llm-api-gateway
+# shared by: llm-api-gateway
+# layer content: 23 packages, 7.2 MB compressed
+FROM base-9
+RUN pip install --no-cache-dir \
+        annotated-doc \
+        annotated-types \
+        anthropic \
+        anyio \
+        certifi \
+        click \
+        colorama \
+        distro \
+        docstring-parser \
+        fastapi \
+        h11 \
+        httpcore \
+        httpx \
+        idna \
+        jiter \
+        openai \
+        pydantic \
+        pydantic-core \
+        sniffio \
+        starlette \
+        tqdm \
+        typing-inspection \
+        uvicorn

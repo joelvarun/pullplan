@@ -1,0 +1,27 @@
+# embedding-service
+# shared by: embedding-service
+# layer content: 22 packages, 180.1 MB compressed
+FROM base-3
+RUN pip install --no-cache-dir \
+        certifi \
+        charset-normalizer \
+        click \
+        colorama \
+        filelock \
+        fsspec \
+        h11 \
+        huggingface-hub \
+        jinja2 \
+        markupsafe \
+        networkx \
+        pyyaml \
+        regex \
+        requests \
+        safetensors \
+        setuptools \
+        tokenizers \
+        torch \
+        tqdm \
+        transformers \
+        urllib3 \
+        uvicorn

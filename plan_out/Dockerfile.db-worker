@@ -1,0 +1,16 @@
+# db-worker
+# shared by: db-worker
+# layer content: 11 packages, 22.1 MB compressed
+FROM base-9
+RUN pip install --no-cache-dir \
+        boto3 \
+        botocore \
+        greenlet \
+        jmespath \
+        pyjwt \
+        python-dateutil \
+        redis \
+        s3transfer \
+        six \
+        sqlalchemy \
+        urllib3

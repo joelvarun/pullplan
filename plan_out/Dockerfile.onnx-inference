@@ -1,0 +1,5 @@
+# onnx-inference
+# shared by: onnx-inference
+# layer content: 0 packages, 0.0 MB compressed
+FROM base-6
+# nothing to install at this level

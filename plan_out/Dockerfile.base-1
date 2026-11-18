@@ -1,0 +1,9 @@
+# base-1
+# shared by: audio-feature, tabular-train, nlp-classic
+# layer content: 4 packages, 59.0 MB compressed
+FROM base-5
+RUN pip install --no-cache-dir \
+        joblib \
+        scikit-learn \
+        scipy \
+        threadpoolctl

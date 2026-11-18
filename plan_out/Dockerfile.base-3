@@ -1,0 +1,17 @@
+# base-3
+# shared by: embedding-service, vector-search, onnx-inference
+# layer content: 12 packages, 25.1 MB compressed
+FROM base-8
+RUN pip install --no-cache-dir \
+        annotated-doc \
+        annotated-types \
+        anyio \
+        fastapi \
+        mpmath \
+        packaging \
+        pydantic \
+        pydantic-core \
+        sniffio \
+        starlette \
+        sympy \
+        typing-inspection

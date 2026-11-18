@@ -1,0 +1,11 @@
+# base-2
+# shared by: analytics-dash, etl-arrow
+# layer content: 6 packages, 55.2 MB compressed
+FROM base-5
+RUN pip install --no-cache-dir \
+        pandas \
+        pyarrow \
+        python-dateutil \
+        pytz \
+        six \
+        tzdata

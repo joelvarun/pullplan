@@ -1,0 +1,155 @@
+{
+ "generated_on": "2026-11-18",
+ "images": 12,
+ "packages": 157,
+ "signatures": 39,
+ "one_base_images": [
+  "embedding-service",
+  "vector-search",
+  "onnx-inference",
+  "vision-preproc",
+  "audio-feature",
+  "tabular-train",
+  "tf-batch-scorer",
+  "analytics-dash",
+  "etl-arrow",
+  "nlp-classic"
+ ],
+ "strategies": [
+  {
+   "key": "independent",
+   "label": "independent\nimages",
+   "bytes": 1539369603
+  },
+  {
+   "key": "one_base",
+   "label": "1 shared\nbase (exact)",
+   "bytes": 1380440619
+  },
+  {
+   "key": "two_bases",
+   "label": "2 shared\nbases (exact)",
+   "bytes": 1262504061
+  },
+  {
+   "key": "greedy",
+   "label": "greedy\nhierarchy",
+   "bytes": 1109194939
+  },
+  {
+   "key": "optimal",
+   "label": "pullplan\nexact plan",
+   "bytes": 1109194939
+  },
+  {
+   "key": "floor",
+   "label": "no-FROM-chain\nfloor",
+   "bytes": 1042089720
+  }
+ ],
+ "bases": [
+  {
+   "name": "base-1",
+   "images": 3,
+   "members": [
+    "audio-feature",
+    "tabular-train",
+    "nlp-classic"
+   ],
+   "packages": 4,
+   "bytes": 58968279
+  },
+  {
+   "name": "base-2",
+   "images": 2,
+   "members": [
+    "analytics-dash",
+    "etl-arrow"
+   ],
+   "packages": 6,
+   "bytes": 55223925
+  },
+  {
+   "name": "base-3",
+   "images": 3,
+   "members": [
+    "embedding-service",
+    "vector-search",
+    "onnx-inference"
+   ],
+   "packages": 12,
+   "bytes": 25130705
+  },
+  {
+   "name": "base-4",
+   "images": 2,
+   "members": [
+    "tabular-train",
+    "nlp-classic"
+   ],
+   "packages": 5,
+   "bytes": 24007990
+  },
+  {
+   "name": "base-5",
+   "images": 10,
+   "members": [
+    "embedding-service",
+    "vector-search",
+    "onnx-inference",
+    "vision-preproc",
+    "audio-feature",
+    "tabular-train",
+    "tf-batch-scorer",
+    "analytics-dash",
+    "etl-arrow",
+    "nlp-classic"
+   ],
+   "packages": 1,
+   "bytes": 17658776
+  },
+  {
+   "name": "base-6",
+   "images": 2,
+   "members": [
+    "vector-search",
+    "onnx-inference"
+   ],
+   "packages": 3,
+   "bytes": 15153917
+  },
+  {
+   "name": "base-7",
+   "images": 2,
+   "members": [
+    "vision-preproc",
+    "tf-batch-scorer"
+   ],
+   "packages": 1,
+   "bytes": 7489779
+  },
+  {
+   "name": "base-8",
+   "images": 5,
+   "members": [
+    "embedding-service",
+    "vector-search",
+    "onnx-inference",
+    "vision-preproc",
+    "tf-batch-scorer"
+   ],
+   "packages": 2,
+   "bytes": 265263
+  },
+  {
+   "name": "base-9",
+   "images": 2,
+   "members": [
+    "llm-api-gateway",
+    "db-worker"
+   ],
+   "packages": 1,
+   "bytes": 111049
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+# etl-arrow
+# shared by: etl-arrow
+# layer content: 2 packages, 53.8 MB compressed
+FROM base-2
+RUN pip install --no-cache-dir \
+        polars \
+        polars-runtime-32

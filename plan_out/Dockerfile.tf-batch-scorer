@@ -1,0 +1,39 @@
+# tf-batch-scorer
+# shared by: tf-batch-scorer
+# layer content: 34 packages, 454.0 MB compressed
+FROM base-7
+RUN pip install --no-cache-dir \
+        absl-py \
+        astunparse \
+        certifi \
+        charset-normalizer \
+        flatbuffers \
+        gast \
+        google-pasta \
+        grpcio \
+        h5py \
+        keras \
+        libclang \
+        markdown \
+        markdown-it-py \
+        markupsafe \
+        mdurl \
+        ml-dtypes \
+        namex \
+        opt-einsum \
+        optree \
+        packaging \
+        protobuf \
+        pygments \
+        requests \
+        rich \
+        setuptools \
+        six \
+        tensorboard \
+        tensorboard-data-server \
+        tensorflow \
+        termcolor \
+        urllib3 \
+        werkzeug \
+        wheel \
+        wrapt

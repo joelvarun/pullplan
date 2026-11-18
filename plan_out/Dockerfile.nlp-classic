@@ -1,0 +1,11 @@
+# nlp-classic
+# shared by: nlp-classic
+# layer content: 6 packages, 5.1 MB compressed
+FROM base-4
+RUN pip install --no-cache-dir \
+        click \
+        colorama \
+        defusedxml \
+        nltk \
+        regex \
+        tqdm

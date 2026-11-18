@@ -1,0 +1,61 @@
+# vector-search
+# shared by: vector-search
+# layer content: 56 packages, 43.8 MB compressed
+FROM base-6
+RUN pip install --no-cache-dir \
+        attrs \
+        backoff \
+        bcrypt \
+        build \
+        certifi \
+        charset-normalizer \
+        chromadb \
+        click \
+        colorama \
+        distro \
+        durationpy \
+        filelock \
+        fsspec \
+        googleapis-common-protos \
+        grpcio \
+        h11 \
+        httpcore \
+        httpx \
+        huggingface-hub \
+        importlib-resources \
+        jsonschema \
+        jsonschema-specifications \
+        kubernetes \
+        markdown-it-py \
+        mdurl \
+        mmh3 \
+        oauthlib \
+        opentelemetry-api \
+        opentelemetry-exporter-otlp-proto-common \
+        opentelemetry-exporter-otlp-proto-grpc \
+        opentelemetry-proto \
+        opentelemetry-sdk \
+        opentelemetry-semantic-conventions \
+        orjson \
+        overrides \
+        posthog \
+        pybase64 \
+        pygments \
+        pypika \
+        pyproject-hooks \
+        python-dateutil \
+        pyyaml \
+        referencing \
+        requests \
+        requests-oauthlib \
+        rich \
+        rpds-py \
+        shellingham \
+        six \
+        tenacity \
+        tokenizers \
+        tqdm \
+        typer \
+        urllib3 \
+        uvicorn \
+        websocket-client

@@ -1,0 +1,29 @@
+# audio-feature
+# shared by: audio-feature
+# layer content: 24 packages, 50.5 MB compressed
+FROM base-1
+RUN pip install --no-cache-dir \
+        audioop-lts \
+        audioread \
+        certifi \
+        cffi \
+        charset-normalizer \
+        decorator \
+        idna \
+        lazy-loader \
+        librosa \
+        llvmlite \
+        msgpack \
+        numba \
+        packaging \
+        platformdirs \
+        pooch \
+        pycparser \
+        requests \
+        soundfile \
+        soxr \
+        standard-aifc \
+        standard-chunk \
+        standard-sunau \
+        typing-extensions \
+        urllib3

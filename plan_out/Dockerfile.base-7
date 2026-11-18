@@ -1,0 +1,6 @@
+# base-7
+# shared by: vision-preproc, tf-batch-scorer
+# layer content: 1 packages, 7.5 MB compressed
+FROM base-8
+RUN pip install --no-cache-dir \
+        pillow

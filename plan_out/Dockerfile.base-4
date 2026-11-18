@@ -1,0 +1,10 @@
+# base-4
+# shared by: tabular-train, nlp-classic
+# layer content: 5 packages, 24.0 MB compressed
+FROM base-1
+RUN pip install --no-cache-dir \
+        pandas \
+        python-dateutil \
+        pytz \
+        six \
+        tzdata

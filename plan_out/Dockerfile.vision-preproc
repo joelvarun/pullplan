@@ -1,0 +1,15 @@
+# vision-preproc
+# shared by: vision-preproc
+# layer content: 10 packages, 44.6 MB compressed
+FROM base-7
+RUN pip install --no-cache-dir \
+        annotated-doc \
+        annotated-types \
+        anyio \
+        fastapi \
+        opencv-python \
+        pydantic \
+        pydantic-core \
+        sniffio \
+        starlette \
+        typing-inspection
